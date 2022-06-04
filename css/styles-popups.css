@@ -1,0 +1,151 @@
+.popup .overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #0000007b;
+    z-index: 1;
+    display: none;
+}
+
+.popup .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%) scale(0);
+    background: #fff;
+    border-radius: 20px;
+    width: 450px;
+    height: auto;
+    z-index: 99;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: -8px -1px 38px 0px rgba(120,76,251,0.38);
+    -webkit-box-shadow: -8px -1px 38px 0px rgba(120,76,251,0.38);
+    -moz-box-shadow: -8px -1px 38px 0px rgba(120,76,251,0.38);
+}
+.popup .content ul li{
+    text-align: left;
+}
+
+.popup .close-btn{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    background: #784cfb;
+    color: #fff;
+    font-size:25px ;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+} 
+
+
+.popup.active .overlay{
+    display: block;
+}
+
+
+.popup.active .content{
+    transition: all 300ms ease-in-out;
+    transform: translate(-50% , -50%) scale(1);
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .popup .content{
+        width: 95vw;
+        height: auto;
+    }
+    .popup.active .content{
+        width: 90vw;
+        height: auto;
+    }
+}
+
+
+/*========PROGRESS BAR==========*/
+/*=============== SKILLS ===============*/
+.skills__content {
+    row-gap: 3.5rem;
+  }
+  
+  .skills__title {
+    font-size: var(--h3-font-size);
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .skills__box {
+    display: flex;
+    justify-content: center;
+    column-gap: 3rem;
+  }
+  
+  .skills__group {
+      text-align: left;
+    display: grid;
+    align-content: flex-start;
+    row-gap: 1rem;
+  }
+  
+  .skills__data {
+      
+    display: flex;
+    column-gap: .5rem;
+  }
+  
+  .skills__data i {
+    font-size: 1rem;
+    color: #784cfb;
+  }
+  
+  .skills__name {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 18px;
+  }
+  
+  .skills__level {
+    font-size: .8rem;
+  }
+  h4{
+    color: #784cfb;
+  }
+
+  .content h1{
+    font-size: 1rem;
+  }
+
+.skills__data a:hover{
+  cursor: pointer;
+  color: #784cfb;
+}
+
+.cliquer{
+
+  
+  font-size: .75rem;
+}
+
+.card .btn.small{
+  cursor: pointer;
+}
+
+.skills__name{
+  color: black;
+}
+
+h1{
+  text-align: center;
+}
+.title-sm{
+  text-align: center;
+}
