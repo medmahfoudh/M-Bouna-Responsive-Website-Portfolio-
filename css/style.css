@@ -341,12 +341,7 @@ nav.open .links {
   transform: translateX(0);
 }
 
-.header-content .container.grid-2 {
-  grid-template-columns: 2.5fr 3.5fr;
-  min-height: calc(100vh - 6rem);
-  padding-bottom: 2.5rem;
-  text-align: left;
-}
+
 
 .header-title {
   font-size: 3.5rem;
