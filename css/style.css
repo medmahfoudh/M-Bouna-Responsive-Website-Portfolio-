@@ -86,14 +86,15 @@ img {
 }
 
 .column-2 {
-  margin-left: 1.5rem;
+  margin-left: 7.5rem;
 }
 
 .image {
   position: relative;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  border-radius: 71%;
+  overflow: hidden;
+  width: 70%;
 }
 
 .z-index {
